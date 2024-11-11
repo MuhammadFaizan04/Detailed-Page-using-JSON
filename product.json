@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Nitro smartwatch",
+        "price" : 12000,
+        "image" : "images/img1.jpg"
+    },
+    {
+        "name" : "Nitro smartwatch",
+        "price" : 17000,
+        "image" : "images/img2.jpg"
+    },
+    {
+        "name" : "Nitro smartwatch",
+        "price" : 15000,
+        "image" : "images/img3.jpg"
+    },
+    {
+        "name" : "Nitro smartwatch",
+        "price" : 18000,
+        "image" : "images/img4.jpg"
+    }
+]

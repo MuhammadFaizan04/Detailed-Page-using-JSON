@@ -1,0 +1,70 @@
+{
+    "Bags" : [
+        {
+            "name" : "Gucci",
+            "price" : 12000,
+            "image" : "images/img1.jpg"
+        },
+        {
+            "name" : "Gucci",
+            "price" : 15000,
+            "image" : "images/img2.jpg"
+        },
+        {
+            "name" : "Gucci",
+            "price" : 16000,
+            "image" : "images/img3.jpg"
+        },
+        {
+            "name" : "Gucci",
+            "price" : 19000,
+            "image" : "images/4.jpg"
+        }
+    ],
+    "Watches" : [
+        {
+            "name" : "Sveston",
+            "price" : 13000,
+            "image" : "images/5.jpg"
+        },
+        {
+            "name" : "Sveston",
+            "price" : 10000,
+            "image" : "images/6.jpg"
+        },
+        {
+            "name" : "Sveston",
+            "price" : 17000,
+            "image" : "images/7.jpg"
+        },
+        {
+            "name" : "Sveston",
+            "price" : 15000,
+            "image" : "images/8.jpg"
+        }
+
+    ],
+    "Shoes" : [
+        {
+            "name" : "Nike",
+            "price" : 14000,
+            "image" : "images/9.jpg"
+        },
+        {
+            "name" : "Nike",
+            "price" : 17000,
+            "image" : "images/10.jpg"
+        },
+        {
+            "name" : "Nike",
+            "price" : 19000,
+            "image" : "images/11.jpg"
+        },
+        {
+            "name" : "Nike",
+            "price" : 13000,
+            "image" : "images/12.jpg"
+        }
+       
+    ]
+}
