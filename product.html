@@ -32,8 +32,8 @@
         $.ajax ({
             url : "product.json",
             success : function(response){
-                console.log(response);
-                response.forEach(element => {
+                // console.log(response.Watches);
+                response.Watches.forEach(element => {
                     // console.log(element);
                     col += `<div class="col-md-3">
                 <div class="card">
@@ -41,6 +41,7 @@
                     <div class="card-body">
                         <h4 class="card-title text-center">`+ element.name +`</h4>
                         <p class="card-text text-center">`+ element.price +`</p>
+                        <a href="detail.html?pid=`+element.id+`&pname=`+element.name+`&pprice=`+element.price+`&pimage=`+element.image+`&pdescription=`+element.description+`">Details</a>
                     </div>
                 </div>
             </div>`

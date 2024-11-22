@@ -1,22 +1,32 @@
-[
+{
+"Watches" : [
     {
+        "id" : 1,
         "name" : "Nitro smartwatch",
-        "price" : 12000,
-        "image" : "images/img1.jpg"
+        "price" : "PKR 12000",
+        "image" : "images/img1.jpg",
+        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis aliquid mollitia quae! Sunt repellendus aut, consectetur repellat voluptatibus minus accusamus porro in nesciunt, ratione, tempora eius quia aliquam incidunt quas"
     },
     {
+        "id" : 2,
         "name" : "Nitro smartwatch",
-        "price" : 17000,
-        "image" : "images/img2.jpg"
+        "price" : "PKR 17000",
+        "image" : "images/img2.jpg",
+        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis aliquid mollitia quae! Sunt repellendus aut, consectetur repellat voluptatibus minus accusamus porro in nesciunt, ratione, tempora eius quia aliquam incidunt quas"
     },
     {
+        "id" : 3,
         "name" : "Nitro smartwatch",
-        "price" : 15000,
-        "image" : "images/img3.jpg"
+        "price" : "PKR 15000",
+        "image" : "images/img3.jpg",
+        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis aliquid mollitia quae! Sunt repellendus aut, consectetur repellat voluptatibus minus accusamus porro in nesciunt, ratione, tempora eius quia aliquam incidunt quas"
     },
     {
+        "id" : 4,
         "name" : "Nitro smartwatch",
-        "price" : 18000,
-        "image" : "images/img4.jpg"
+        "price" : "PKR 18000",
+        "image" : "images/img4.jpg",
+        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis aliquid mollitia quae! Sunt repellendus aut, consectetur repellat voluptatibus minus accusamus porro in nesciunt, ratione, tempora eius quia aliquam incidunt quas"
     }
 ]
+}

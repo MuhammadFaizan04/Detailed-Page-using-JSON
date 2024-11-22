@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row" id="products">
+            <div class="col-md-6">
+                <div class="card">
+                    <img class="card-img-top" src="" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-5">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text"></p>
+                        <p class="p-des"></p>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="/jquery-3.7.1.min.js"></script>
+    <script src="/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <script>
+        let url = location.href;
+        // console.log(url);
+        let obj = new URL(url);
+        // console.log(obj);
+        let pId = obj.searchParams.get('pid');
+        let pName = obj.searchParams.get('pname');
+        let pPrice = obj.searchParams.get('pprice');
+        let pImage = obj.searchParams.get('pimage');
+        let pDes = obj.searchParams.get('pdescription');
+        $(".card-img-top").attr("src",pImage);
+        $(".card-title").text(pName);
+        $(".card-text").text(pPrice);
+        $(".p-des").text(pDes);
+
+    </script>
+</body>
+</html>
